@@ -4,6 +4,7 @@ import './App.css';
 import { Greet,ArrowExample } from './components/function_component_example';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Welcome name = "priya" />
         <Welcome name = "riya" />
         <Hello />
+        <Message message='Hello This is first state manage in message component' />
       </p>
     </div>
   );
