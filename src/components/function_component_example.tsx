@@ -6,6 +6,14 @@ function Greet() {
 }
 
 //arrow function component
-const ArrowExample = () => <h1>This is Arrow Function</h1> 
+const ArrowExample = (props: any) => {
+    console.log(props);
+    return (
+        <div>
+        <h1>Hello {props.name}</h1>
+        <p>Hello</p>
+        </div>
+    )
+} 
 
 export {Greet , ArrowExample}
