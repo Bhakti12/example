@@ -11,8 +11,10 @@ function App() {
       <p>
         Hello world
         <Greet />
-        <ArrowExample />
-        <Welcome />
+        <ArrowExample name = "Bhakti" heroName="spiderman" />
+        <ArrowExample name = "Kush" heroName="batman" />
+        <Welcome name = "priya" />
+        <Welcome name = "riya" />
         <Hello />
       </p>
     </div>
