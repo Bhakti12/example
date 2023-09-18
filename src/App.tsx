@@ -5,6 +5,7 @@ import { Greet,ArrowExample } from './components/function_component_example';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Welcome name = "riya" />
         <Hello />
         <Message message='Hello This is first state manage in message component' />
+        <Counter count={13}/>
       </p>
     </div>
   );
